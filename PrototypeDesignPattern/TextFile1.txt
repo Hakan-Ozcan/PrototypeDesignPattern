@@ -1,0 +1,10 @@
+﻿Prototype tasarım deseni, nesne oluşturma işlemlerini başka bir nesnenin kopyasını kullanarak gerçekleştiren bir tasarım desenidir. 
+Bu desen, yeni nesnelerin oluşturulmasını azaltır ve mevcut bir nesneyi klonlayarak yeni bir nesne oluşturmayı sağlar.
+Prototype deseni, özellikle nesnenin yapısı karmaşık veya maliyetli ise kullanışlıdır.
+
+Bu deseni uygulamak için bir sınıf, klonlama işlemini gerçekleştirecek bir "Clone" metodu uygulamalıdır.
+İstemci kod, bu metodu kullanarak yeni nesneleri kopyalayabilir ve ardından ihtiyaç duyulan değişiklikleri yapabilir.
+
+Bu örnekte, Prototype tasarım deseni kullanılarak "Dikdortgen", "Daire", "Kalem" ve "Fırça" gibi farklı grafik nesnelerini klonlayarak yeni nesneler oluşturuyoruz.
+Fabrika sınıfı, mevcut nesnelerin kopyalanmasını ve yeni nesnelerin oluşturulmasını sağlar.
+Bu sayede, yeni grafik nesneleri oluşturmak için kod tekrarlamadan mevcut nesneleri kullanabiliyoruz.
